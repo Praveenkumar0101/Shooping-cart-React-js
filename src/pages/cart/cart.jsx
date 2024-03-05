@@ -35,7 +35,7 @@ export const Cart = () => {
             }}
           >
             {" "}
-            Checkout{" "}
+            Clear{" "}
           </button>
         </div>
       ) : (
