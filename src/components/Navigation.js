@@ -1,47 +1,33 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import RegistrationForm from "../assets/screens/registration.js/registration"
-import LoginForm from "../assets/screens/registration.js/login"
-import Products from "../products"
+// import { BrowserRouter, Route, Routes } from "react-router-dom"
+// import RegistrationForm from "../assets/screens/registration.js/registration"
+// import LoginForm from "../assets/screens/registration.js/login"
+// import Products from "../products"
 
 
 
 
 
 
-const Navigation=()=>{
+// const Navigation=()=>{
 
 
-return(
+// return(
 
 
-<>
-<BrowserRouter>
+// <>
+// <BrowserRouter>
 
 
-<Routes>
-<Route path="/" Component={RegistrationForm}/>
+// <Routes>
+// <Route path="/" Component={RegistrationForm}/>
 
-<Route path="/login" Component={LoginForm}/>
-<Route path="/home" Component={Products}/>
-
-
-
-
-</Routes>
+// <Route path="/login" Component={LoginForm}/>
+// <Route path="/home" Component={Products}/>
 
 
 
 
-
-
-
-
-
-
-
-
-
-</BrowserRouter>
+// </Routes>
 
 
 
@@ -55,15 +41,29 @@ return(
 
 
 
-</>
+// </BrowserRouter>
 
 
 
 
 
-)
 
 
 
-}
-export default Navigation
+
+
+
+
+
+// </>
+
+
+
+
+
+// )
+
+
+
+// }
+// export default Navigation
